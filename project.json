@@ -1,0 +1,10 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "test.xml",
+    "author": "valerie6b",
+    "minimum_firmware_version": 42
+}
