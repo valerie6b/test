@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="1" inline="false" x="101" y="168">
+  <block type="controls_whileUntil" id="1" inline="false" x="107" y="41">
     <field name="MODE">WHILE</field>
     <statement name="DO">
       <block type="movement_forward" id="2">
@@ -14,17 +14,17 @@
                         <next>
                           <block type="movement_left" id="7">
                             <next>
-                              <block type="movement_right" id="53">
+                              <block type="movement_right" id="8">
                                 <next>
-                                  <block type="movement_right" id="73">
+                                  <block type="movement_right" id="9">
                                     <next>
-                                      <block type="movement_left" id="83">
+                                      <block type="movement_left" id="10">
                                         <next>
-                                          <block type="movement_left" id="93">
+                                          <block type="movement_left" id="11">
                                             <next>
-                                              <block type="movement_right" id="114">
+                                              <block type="movement_right" id="12">
                                                 <next>
-                                                  <block type="movement_forward" id="133"></block>
+                                                  <block type="movement_forward" id="13"></block>
                                                 </next>
                                               </block>
                                             </next>
