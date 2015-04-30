@@ -1,32 +1,27 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="1" inline="false" x="107" y="41">
-    <field name="MODE">UNTIL</field>
-    <statement name="DO">
-      <block type="movement_forward" id="2">
+  <block type="movement_forward" id="2" x="101" y="38">
+    <next>
+      <block type="movement_reverse" id="3">
         <next>
-          <block type="movement_reverse" id="3">
+          <block type="movement_forward" id="4">
             <next>
-              <block type="movement_forward" id="4">
+              <block type="movement_reverse" id="5">
                 <next>
-                  <block type="movement_reverse" id="5">
+                  <block type="movement_forward" id="6">
                     <next>
-                      <block type="movement_forward" id="6">
+                      <block type="movement_left" id="7">
                         <next>
-                          <block type="movement_left" id="7">
+                          <block type="movement_right" id="8">
                             <next>
-                              <block type="movement_right" id="8">
+                              <block type="movement_right" id="9">
                                 <next>
-                                  <block type="movement_right" id="9">
+                                  <block type="movement_left" id="10">
                                     <next>
-                                      <block type="movement_left" id="10">
+                                      <block type="movement_left" id="11">
                                         <next>
-                                          <block type="movement_left" id="11">
+                                          <block type="movement_right" id="12">
                                             <next>
-                                              <block type="movement_right" id="12">
-                                                <next>
-                                                  <block type="movement_forward" id="13"></block>
-                                                </next>
-                                              </block>
+                                              <block type="movement_forward" id="13"></block>
                                             </next>
                                           </block>
                                         </next>
@@ -47,6 +42,6 @@
           </block>
         </next>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
