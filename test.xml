@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="controls_whileUntil" id="1" inline="false" x="107" y="41">
-    <field name="MODE">WHILE</field>
+    <field name="MODE">UNTIL</field>
     <statement name="DO">
       <block type="movement_forward" id="2">
         <next>
